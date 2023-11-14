@@ -1,0 +1,280 @@
+{
+  "id": "aebdb4ca-5e9a-4af5-9eb0-8a9085f7b729",
+  "version": "2.0",
+  "name": "Amazon_Carrinho",
+  "url": "https://www.amazon.com.br",
+  "tests": [{
+    "id": "5d92e1f3-c327-4a46-8e9b-26269baf42e4",
+    "name": "Amazon_Carrinho",
+    "commands": [{
+      "id": "c80da558-863b-4a3c-b6fd-23f50c92c679",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bd8b969b-656f-4b45-a5b4-846485a4d7ce",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "836x720",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2e344acc-1a1d-4be1-9693-dd6a540bba77",
+      "comment": "",
+      "command": "click",
+      "target": "id=twotabsearchtextbox",
+      "targets": [
+        ["id=twotabsearchtextbox", "id"],
+        ["name=field-keywords", "name"],
+        ["css=#twotabsearchtextbox", "css:finder"],
+        ["xpath=//input[@id='twotabsearchtextbox']", "xpath:attributes"],
+        ["xpath=//form[@id='nav-search-bar-form']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dc8c220d-0e5a-480d-a2eb-b7dd2f536df8",
+      "comment": "",
+      "command": "type",
+      "target": "id=twotabsearchtextbox",
+      "targets": [
+        ["id=twotabsearchtextbox", "id"],
+        ["name=field-keywords", "name"],
+        ["css=#twotabsearchtextbox", "css:finder"],
+        ["xpath=//input[@id='twotabsearchtextbox']", "xpath:attributes"],
+        ["xpath=//form[@id='nav-search-bar-form']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "kindle 11 geração"
+    }, {
+      "id": "43b12716-56ab-4e50-8945-7e8bb0734b7a",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=twotabsearchtextbox",
+      "targets": [
+        ["id=twotabsearchtextbox", "id"],
+        ["name=field-keywords", "name"],
+        ["css=#twotabsearchtextbox", "css:finder"],
+        ["xpath=//input[@id='twotabsearchtextbox']", "xpath:attributes"],
+        ["xpath=//form[@id='nav-search-bar-form']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "c29a9f1f-eb7c-4818-8f60-a9eeb23c2d11",
+      "comment": "",
+      "command": "click",
+      "target": "css=.a-badge-text:nth-child(2)",
+      "targets": [
+        ["css=.a-badge-text:nth-child(2)", "css:finder"],
+        ["xpath=//span[@id='B09SWTG9GF-amazons-choice-label']/span/span[2]", "xpath:idRelative"],
+        ["xpath=//div/span/span/span/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cdf81d67-0550-4dc1-a355-223f61796c7c",
+      "comment": "",
+      "command": "click",
+      "target": "id=add-to-cart-button",
+      "targets": [
+        ["id=add-to-cart-button", "id"],
+        ["name=submit.add-to-cart", "name"],
+        ["css=#add-to-cart-button", "css:finder"],
+        ["xpath=//input[@id='add-to-cart-button']", "xpath:attributes"],
+        ["xpath=//span[@id='submit.add-to-cart']/span/input", "xpath:idRelative"],
+        ["xpath=//span/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1b90991e-89b8-4b25-95fa-ad6304a11251",
+      "comment": "",
+      "command": "click",
+      "target": "css=.abb-intl-decline .a-button-input",
+      "targets": [
+        ["css=.abb-intl-decline .a-button-input", "css:finder"],
+        ["xpath=(//input[@type='submit'])[42]", "xpath:attributes"],
+        ["xpath=//div[@id='abb-intl-pop-cta']/span[3]/span/input", "xpath:idRelative"],
+        ["xpath=//span[3]/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1a028a96-3f95-45a0-bcb5-a21cd0c767cc",
+      "comment": "",
+      "command": "click",
+      "target": "id=twotabsearchtextbox",
+      "targets": [
+        ["id=twotabsearchtextbox", "id"],
+        ["name=field-keywords", "name"],
+        ["css=#twotabsearchtextbox", "css:finder"],
+        ["xpath=//input[@id='twotabsearchtextbox']", "xpath:attributes"],
+        ["xpath=//form[@id='nav-search-bar-form']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "149e3fbb-87d4-409b-a0be-fd6cfddc5c48",
+      "comment": "",
+      "command": "type",
+      "target": "id=twotabsearchtextbox",
+      "targets": [
+        ["id=twotabsearchtextbox", "id"],
+        ["name=field-keywords", "name"],
+        ["css=#twotabsearchtextbox", "css:finder"],
+        ["xpath=//input[@id='twotabsearchtextbox']", "xpath:attributes"],
+        ["xpath=//form[@id='nav-search-bar-form']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "alexa geracao 5"
+    }, {
+      "id": "e863625e-f1f9-49c4-a7be-cb87faa655c2",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=twotabsearchtextbox",
+      "targets": [
+        ["id=twotabsearchtextbox", "id"],
+        ["name=field-keywords", "name"],
+        ["css=#twotabsearchtextbox", "css:finder"],
+        ["xpath=//input[@id='twotabsearchtextbox']", "xpath:attributes"],
+        ["xpath=//form[@id='nav-search-bar-form']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "653d98b0-7f6f-414f-8134-95483fc30e1c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.s-product-image-container:nth-child(2) .s-image",
+      "targets": [
+        ["css=.s-product-image-container:nth-child(2) .s-image", "css:finder"],
+        ["xpath=//img[@alt='Echo Dot 5ª geração | O Echo Dot com o melhor som já lançado | Cor Preta']", "xpath:img"],
+        ["xpath=//div[@id='search']/div/div/div/span/div/div[3]/div/div/div/div/div[2]/span/a/div/img", "xpath:idRelative"],
+        ["xpath=//a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "10180b9f-845f-40a1-ac88-47c5a795d592",
+      "comment": "",
+      "command": "click",
+      "target": "id=add-to-cart-button",
+      "targets": [
+        ["id=add-to-cart-button", "id"],
+        ["name=submit.add-to-cart", "name"],
+        ["css=#add-to-cart-button", "css:finder"],
+        ["xpath=//input[@id='add-to-cart-button']", "xpath:attributes"],
+        ["xpath=//span[@id='submit.add-to-cart']/span/input", "xpath:idRelative"],
+        ["xpath=//span/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d0176a75-c624-4755-92d5-44d748f249ff",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Ideias de Presente",
+      "targets": [
+        ["linkText=Ideias de Presente", "linkText"],
+        ["css=.nav-a:nth-child(5)", "css:finder"],
+        ["xpath=//a[contains(text(),'Ideias de Presente')]", "xpath:link"],
+        ["xpath=//div[@id='nav-xshop']/a[4]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/gcx/-/gfhz/?ref_=nav_cs_giftfinder')]", "xpath:href"],
+        ["xpath=//div[2]/div/a[4]", "xpath:position"],
+        ["xpath=//a[contains(.,'Ideias de Presente')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "69db37ca-cf6c-452d-96cc-fb290bd14a50",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Ideias de Presente",
+      "targets": [
+        ["linkText=Ideias de Presente", "linkText"],
+        ["css=.nav-a:nth-child(5)", "css:finder"],
+        ["xpath=//a[contains(text(),'Ideias de Presente')]", "xpath:link"],
+        ["xpath=//div[@id='nav-xshop']/a[4]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/gcx/-/gfhz/?ref_=nav_cs_giftfinder')]", "xpath:href"],
+        ["xpath=//div[2]/div/a[4]", "xpath:position"],
+        ["xpath=//a[contains(.,'Ideias de Presente')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a26e0fba-ddc5-4a55-9dec-4e7f35844499",
+      "comment": "",
+      "command": "click",
+      "target": "id=twotabsearchtextbox",
+      "targets": [
+        ["id=twotabsearchtextbox", "id"],
+        ["name=field-keywords", "name"],
+        ["css=#twotabsearchtextbox", "css:finder"],
+        ["xpath=//input[@id='twotabsearchtextbox']", "xpath:attributes"],
+        ["xpath=//form[@id='nav-search-bar-form']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "44f9a6a2-3ab7-4584-b33e-8fac5c5c64f9",
+      "comment": "",
+      "command": "type",
+      "target": "id=twotabsearchtextbox",
+      "targets": [
+        ["id=twotabsearchtextbox", "id"],
+        ["name=field-keywords", "name"],
+        ["css=#twotabsearchtextbox", "css:finder"],
+        ["xpath=//input[@id='twotabsearchtextbox']", "xpath:attributes"],
+        ["xpath=//form[@id='nav-search-bar-form']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "fire tv stick 4k geracao 3"
+    }, {
+      "id": "9a32eebb-15dc-4ba5-a1ee-1070be724278",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=twotabsearchtextbox",
+      "targets": [
+        ["id=twotabsearchtextbox", "id"],
+        ["name=field-keywords", "name"],
+        ["css=#twotabsearchtextbox", "css:finder"],
+        ["xpath=//input[@id='twotabsearchtextbox']", "xpath:attributes"],
+        ["xpath=//form[@id='nav-search-bar-form']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "5c9d435c-df8b-401f-92d1-b59e3b2e0dad",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sg-col-4-of-24:nth-child(7) .s-image:nth-child(1)",
+      "targets": [
+        ["css=.sg-col-4-of-24:nth-child(7) .s-image:nth-child(1)", "css:finder"],
+        ["xpath=//img[@alt='Controle Remoto de Substituição com Função Remota de Voz compatível com Amazon Fire TV Stick 4K/4K Max, Fire TV Cube, Fire...']", "xpath:img"],
+        ["xpath=//div[@id='search']/div/div/div/span/div/div[3]/div/div/div/div/div/span/a/div/img", "xpath:idRelative"],
+        ["xpath=//a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "61a59cda-d748-451a-90d4-ddd968720523",
+      "comment": "",
+      "command": "click",
+      "target": "id=add-to-cart-button",
+      "targets": [
+        ["id=add-to-cart-button", "id"],
+        ["name=submit.add-to-cart", "name"],
+        ["css=#add-to-cart-button", "css:finder"],
+        ["xpath=//input[@id='add-to-cart-button']", "xpath:attributes"],
+        ["xpath=//span[@id='submit.add-to-cart']/span/input", "xpath:idRelative"],
+        ["xpath=//div[15]/div/span/span/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "1e5ea2c9-cfc1-44c2-a9f3-feed06e03085",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["5d92e1f3-c327-4a46-8e9b-26269baf42e4"]
+  }],
+  "urls": ["https://www.amazon.com.br/"],
+  "plugins": []
+}
